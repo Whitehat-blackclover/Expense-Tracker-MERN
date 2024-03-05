@@ -12,7 +12,7 @@ function Navigation() {
             </div>
         </div>
         <ul className='menu-items'>
-
+          
         </ul>
     </NavStyled>
   )
