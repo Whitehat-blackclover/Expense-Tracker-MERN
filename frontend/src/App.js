@@ -29,13 +29,8 @@ function App() {
     }
   }
 
-  const orbMemo = useMemo(() => {
-    return <Orb />
-  },[])
-
   return (
     <AppStyled bg={bg} className="App">
-      {orbMemo}
       <MainLayout>
         <Navigation active={active} setActive={setActive} />
         <main>
